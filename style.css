@@ -1,0 +1,48 @@
+body, a, p, input, h1, h2, h3, h4, h5, img, li, ol{
+    margin: 0px;
+    padding: 0px;
+}
+li, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    padding: 100px;
+}
+.login-area input{
+    margin: 10px 0px;
+}
+.login-area{
+    width:70%;
+    margin: auto;
+    display: block;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray ;
+}
+#transaction-area{
+    display: none;
+}
+.status{
+    margin: 0px 20px;
+    padding: 20px;
+    color:#FFF;
+    border-radius: 10px;
+}
+.diposit{
+    background-color: steelblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.col-md-6 input{
+    margin: 10px 0px;
+}

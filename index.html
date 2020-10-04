@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razu Trust Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/bank icon_.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    
+      <div id="login-sec" class="login-area">
+        <h1 class="text-center">Welcome To Razu Trust Bank</h1> 
+        <div class="submit-area">
+            <h4>Login</h4>
+            <input type="text" class="form-control" placeholder="Email">
+            <input type="password" class="form-control" placeholder="password">
+            <button id="login-btn" class="btn btn-success">Submit</button>
+        </div>
+      </div>
+      <div id="transaction-area">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="diposit status">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="currentDeposit">00</span></h2>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                    <h2>$00</h2>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2> $ <span id="currentBalance">1250</span></h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="submit-area">
+                    <h4>Deposit</h4>
+                    <input id="depositAmount" type="text"  class="form-control" placeholder=" $ Amount you want to deposit">
+                    <button id="addDeposit" class="btn btn-success">Deposit</button>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="submit-area">
+                    <h4>Withdraw</h4>
+                    <input id="withdrawAmount" type="text"  class="form-control" placeholder=" $ Amount you want to withdraw">
+                    <button id="addWithdraw" class="btn btn-success">Withdraw</button>
+                  </div>
+              </div>
+          </div>  
+      </div>
+      <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
